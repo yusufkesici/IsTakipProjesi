@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4158856ef6ce4353b5cac7755657a2d1" Name="Diagram1">
+        <EntityTypeShape EntityType="stajyerModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_baslangicBitisTarih" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_firmaTipi" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_hizmetturu" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_marka" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_sektor" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_status" Width="1.5" PointX="3" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_user" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_Yetkili" Width="1.5" PointX="3" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.ViewCari" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_yorum" Width="1.5" PointX="3" PointY="3.375" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_cari" Width="1.5" PointX="5.25" PointY="25.875" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_baslangicBitisTarih" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_firmaTipi" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_hizmetturu" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_sektor1" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_status" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_Yetkili" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_yorum" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_marka_tbl_cari" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_personel" Width="1.5" PointX="0.75" PointY="29.375" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_personel" />
+        <EntityTypeShape EntityType="stajyerModel.tbl_Ariza" Width="1.5" PointX="3" PointY="27.875" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_Ariza_tbl_personel" />
+        <AssociationConnector Association="stajyerModel.FK_tbl_cari_tbl_Ariza" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

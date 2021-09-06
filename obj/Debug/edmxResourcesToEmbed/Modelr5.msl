@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="stajyerModelStoreContainer" CdmEntityContainer="stajyerEntities2">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="stajyerModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_baslangicBitisTarih">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_baslangicBitisTarih">
+        <MappingFragment StoreEntitySet="tbl_baslangicBitisTarih">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMANO" ColumnName="FIRMANO" />
+          <ScalarProperty Name="BASLANGICTARİH" ColumnName="BASLANGICTARİH" />
+          <ScalarProperty Name="BİTİSTARİH" ColumnName="BİTİSTARİH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_cari">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_cari">
+        <MappingFragment StoreEntitySet="tbl_cari">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMAKODU" ColumnName="FIRMAKODU" />
+          <ScalarProperty Name="FIRMAADI" ColumnName="FIRMAADI" />
+          <ScalarProperty Name="YETKILI" ColumnName="YETKILI" />
+          <ScalarProperty Name="VERGIDAIRESI" ColumnName="VERGIDAIRESI" />
+          <ScalarProperty Name="VERGINO" ColumnName="VERGINO" />
+          <ScalarProperty Name="KAYITTARIHI" ColumnName="KAYITTARIHI" />
+          <ScalarProperty Name="ISKONTO" ColumnName="ISKONTO" />
+          <ScalarProperty Name="FIRMATIPI" ColumnName="FIRMATIPI" />
+          <ScalarProperty Name="KOD1" ColumnName="KOD1" />
+          <ScalarProperty Name="KOD2" ColumnName="KOD2" />
+          <ScalarProperty Name="KOD3" ColumnName="KOD3" />
+          <ScalarProperty Name="KOD4" ColumnName="KOD4" />
+          <ScalarProperty Name="KOD5" ColumnName="KOD5" />
+          <ScalarProperty Name="ADI" ColumnName="ADI" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="UNVAN" ColumnName="UNVAN" />
+          <ScalarProperty Name="SEKTOR" ColumnName="SEKTOR" />
+          <ScalarProperty Name="MARKA" ColumnName="MARKA" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="TELEFON1" ColumnName="TELEFON1" />
+          <ScalarProperty Name="TELEFON2" ColumnName="TELEFON2" />
+          <ScalarProperty Name="ADRESFATURA" ColumnName="ADRESFATURA" />
+          <ScalarProperty Name="ADRESSEVK" ColumnName="ADRESSEVK" />
+          <ScalarProperty Name="PARABIRIMI" ColumnName="PARABIRIMI" />
+          <ScalarProperty Name="IL" ColumnName="IL" />
+          <ScalarProperty Name="SEHIR" ColumnName="SEHIR" />
+          <ScalarProperty Name="PERSONELNO" ColumnName="PERSONELNO" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="YETKİLİDGMTARİH" ColumnName="YETKİLİDGMTARİH" />
+          <ScalarProperty Name="HIZMETTURU" ColumnName="HIZMETTURU" />
+          <ScalarProperty Name="BASBITTAR" ColumnName="BASBITTAR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_firmaTipi">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_firmaTipi">
+        <MappingFragment StoreEntitySet="tbl_firmaTipi">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMANO" ColumnName="FIRMANO" />
+          <ScalarProperty Name="FIRMATİPİ" ColumnName="FIRMATİPİ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_hizmetturu">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_hizmetturu">
+        <MappingFragment StoreEntitySet="tbl_hizmetturu">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMANO" ColumnName="FIRMANO" />
+          <ScalarProperty Name="HIZMETTURU" ColumnName="HIZMETTURU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_marka">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_marka">
+        <MappingFragment StoreEntitySet="tbl_marka">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMANO" ColumnName="FIRMANO" />
+          <ScalarProperty Name="MARKAADI" ColumnName="MARKAADI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sektor">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_sektor">
+        <MappingFragment StoreEntitySet="tbl_sektor">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMANO" ColumnName="FIRMANO" />
+          <ScalarProperty Name="SEKTORADI" ColumnName="SEKTORADI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_status">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_status">
+        <MappingFragment StoreEntitySet="tbl_status">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMANO" ColumnName="FIRMANO" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_user">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_user">
+        <MappingFragment StoreEntitySet="tbl_user">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="KULLANICIADI" ColumnName="KULLANICIADI" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Yetkili">
+      <EntityTypeMapping TypeName="stajyerModel.tbl_Yetkili">
+        <MappingFragment StoreEntitySet="tbl_Yetkili">
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMANO" ColumnName="FIRMANO" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="TELEFON" ColumnName="TELEFON" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="DGMTARİH" ColumnName="DGMTARİH" />
+          <ScalarProperty Name="KOD1" ColumnName="KOD1" />
+          <ScalarProperty Name="KOD2" ColumnName="KOD2" />
+          <ScalarProperty Name="KOD3" ColumnName="KOD3" />
+          <ScalarProperty Name="KOD4" ColumnName="KOD4" />
+          <ScalarProperty Name="KOD5" ColumnName="KOD5" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewCari">
+      <EntityTypeMapping TypeName="stajyerModel.ViewCari">
+        <MappingFragment StoreEntitySet="ViewCari">
+          <ScalarProperty Name="Expr3" ColumnName="Expr3" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="Expr4" ColumnName="Expr4" />
+          <ScalarProperty Name="Expr14" ColumnName="Expr14" />
+          <ScalarProperty Name="TELEFON" ColumnName="TELEFON" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="DGMTARİH" ColumnName="DGMTARİH" />
+          <ScalarProperty Name="BİTİSTARİH" ColumnName="BİTİSTARİH" />
+          <ScalarProperty Name="BASLANGICTARİH" ColumnName="BASLANGICTARİH" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="Expr2" ColumnName="Expr2" />
+          <ScalarProperty Name="Expr5" ColumnName="Expr5" />
+          <ScalarProperty Name="Expr6" ColumnName="Expr6" />
+          <ScalarProperty Name="Expr15" ColumnName="Expr15" />
+          <ScalarProperty Name="Expr7" ColumnName="Expr7" />
+          <ScalarProperty Name="Expr8" ColumnName="Expr8" />
+          <ScalarProperty Name="Expr16" ColumnName="Expr16" />
+          <ScalarProperty Name="Expr9" ColumnName="Expr9" />
+          <ScalarProperty Name="Expr10" ColumnName="Expr10" />
+          <ScalarProperty Name="Expr11" ColumnName="Expr11" />
+          <ScalarProperty Name="Expr17" ColumnName="Expr17" />
+          <ScalarProperty Name="FIRMANO" ColumnName="FIRMANO" />
+          <ScalarProperty Name="FIRMATİPİ" ColumnName="FIRMATİPİ" />
+          <ScalarProperty Name="Expr12" ColumnName="Expr12" />
+          <ScalarProperty Name="Expr13" ColumnName="Expr13" />
+          <ScalarProperty Name="MARKAADI" ColumnName="MARKAADI" />
+          <ScalarProperty Name="IND" ColumnName="IND" />
+          <ScalarProperty Name="FIRMAKODU" ColumnName="FIRMAKODU" />
+          <ScalarProperty Name="FIRMAADI" ColumnName="FIRMAADI" />
+          <ScalarProperty Name="YETKILI" ColumnName="YETKILI" />
+          <ScalarProperty Name="VERGIDAIRESI" ColumnName="VERGIDAIRESI" />
+          <ScalarProperty Name="VERGINO" ColumnName="VERGINO" />
+          <ScalarProperty Name="KAYITTARIHI" ColumnName="KAYITTARIHI" />
+          <ScalarProperty Name="ISKONTO" ColumnName="ISKONTO" />
+          <ScalarProperty Name="FIRMATIPI" ColumnName="FIRMATIPI" />
+          <ScalarProperty Name="KOD1" ColumnName="KOD1" />
+          <ScalarProperty Name="KOD2" ColumnName="KOD2" />
+          <ScalarProperty Name="KOD3" ColumnName="KOD3" />
+          <ScalarProperty Name="KOD4" ColumnName="KOD4" />
+          <ScalarProperty Name="KOD5" ColumnName="KOD5" />
+          <ScalarProperty Name="ADI" ColumnName="ADI" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="UNVAN" ColumnName="UNVAN" />
+          <ScalarProperty Name="SEKTOR" ColumnName="SEKTOR" />
+          <ScalarProperty Name="MARKA" ColumnName="MARKA" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="TELEFON1" ColumnName="TELEFON1" />
+          <ScalarProperty Name="TELEFON2" ColumnName="TELEFON2" />
+          <ScalarProperty Name="ADRESFATURA" ColumnName="ADRESFATURA" />
+          <ScalarProperty Name="ADRESSEVK" ColumnName="ADRESSEVK" />
+          <ScalarProperty Name="PARABIRIMI" ColumnName="PARABIRIMI" />
+          <ScalarProperty Name="IL" ColumnName="IL" />
+          <ScalarProperty Name="SEHIR" ColumnName="SEHIR" />
+          <ScalarProperty Name="PERSONELNO" ColumnName="PERSONELNO" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="YETKİLİDGMTARİH" ColumnName="YETKİLİDGMTARİH" />
+          <ScalarProperty Name="HIZMETTURU" ColumnName="HIZMETTURU" />
+          <ScalarProperty Name="BASBITTAR" ColumnName="BASBITTAR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="stajyerModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="stajyerModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="stajyerModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="stajyerModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="stajyerModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="stajyerModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="stajyerModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="stajyerModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="stajyerModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>
